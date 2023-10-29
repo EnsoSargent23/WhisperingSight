@@ -1,0 +1,288 @@
+Customer Interview: 
+
+Personal Preferences and Information:
+
+Question 1:
+How often do you play card games or games in general?
+(Wie oft spielen Sie Kartenspiele oder Spiele im Allgemeinen?)
+
+Question 2:
+What other hobbies or leisure activities do you appreciate?
+(Welche anderen Hobbys oder Freizeitaktivitäten schätzen Sie?)
+
+Question 3:
+How do you spend your leisure time when you're not playing?
+(Wie verbringen Sie Ihre Freizeit, wenn Sie nicht spielen?)
+
+Question 4:
+Do you have experience with digital games, and if so, which ones?
+(Haben Sie Erfahrung mit digitalen Spielen, und wenn ja, welche?)
+
+Question 5:
+What types of technologies or assistive devices do you use in your daily life?
+(Welche Arten von Technologien oder Assistenzgeräten verwenden Sie im Alltag?)
+
+Question 6:
+How do you perform everyday tasks like communication, reading, or writing?
+(Wie führen Sie alltägliche Aufgaben wie Kommunikation, Lesen oder Schreiben durch?)
+
+Question 7:
+What aids do you use to gather information?
+(Welche Hilfsmittel verwenden Sie, um Informationen aufzunehmen?)
+
+Question 8:
+In what environment do you usually play card games?
+(In welcher Umgebung spielen Sie normalerweise Kartenspiele?)
+
+Question 9:
+Do you have preferences regarding the length of game rounds?
+(Haben Sie Präferenzen in Bezug auf die Länge von Spielrunden?)
+
+Question 10:
+Are there specific times of day when you prefer to play?
+(Gibt es bestimmte Tageszeiten, zu denen Sie bevorzugt spielen?)
+
+Question 11:
+What emotions or feelings do you hope to experience while playing?
+(Welche Emotionen oder Gefühle erhoffen Sie sich beim Spielen?)
+
+Question 12:
+What past experiences have you had with card games?
+(Welche bisherigen Erfahrungen haben Sie mit Kartenspielen gemacht?)
+
+Question 13:
+What social interactions or activities related to gaming are important to you?
+(Welche sozialen Interaktionen oder Aktivitäten im Zusammenhang mit Spielen sind Ihnen wichtig?)
+
+Question 14:
+Do you have a preferred type of card game that you've enjoyed in the past?
+(Haben Sie eine bevorzugte Art von Kartenspiel, die Sie in der Vergangenheit genossen haben?)
+
+Question 15:
+What skills or strategies do you value in gaming?
+(Welche Fähigkeiten oder Strategien schätzen Sie beim Spielen?)
+
+Question 16:
+How do you typically handle challenges or mistakes in the game?
+(Wie gehen Sie normalerweise mit Herausforderungen oder Fehlern im Spiel um?)
+
+Question 17:
+What rewards or incentives motivate you while playing?
+(Welche Belohnungen oder Anreize motivieren Sie beim Spielen?)
+
+Question 18:
+What preferences do you have regarding game difficulty?
+(Welche Präferenzen haben Sie hinsichtlich der Spielschwierigkeit?)
+
+Question 19:
+Are there specific goals or outcomes you aim to achieve in the game?
+(Gibt es bestimmte Ziele oder Ergebnisse, die Sie im Spiel erreichen möchten?)
+
+Question 20:
+What personal values or beliefs should be considered in the game?
+(Welche persönlichen Werte oder Überzeugungen sollen im Spiel berücksichtigt werden?)
+
+
+
+
+Technical Information: 
+
+Question 1:
+What are your specific visual limitations?
+(Wie sind Ihre genauen Einschränkungen im Sehvermögen?)
+
+Question 2:
+Which card games interest you?
+(Welche Arten von Kartenspielen interessieren Sie?)
+
+Question 3:
+What are your project requirements?
+(Welche konkreten Anforderungen haben Sie an das geplante Projekt?)
+
+Question 4:
+Are there similar apps or projects you find useful?
+(Gibt es bereits ähnliche Projekte oder Apps, die Sie nützlich finden?)
+
+Question 5:
+Preferred platforms or devices for the game?
+(Welche Plattformen oder Geräte möchten Sie für das Spiel verwenden?)
+
+Question 6:
+Key features or functionalities you prioritize?
+(Welche spezifischen Funktionen oder Features sind Ihnen wichtig?)
+
+Question 7:
+Gameplay preferences?
+(Haben Sie besondere Präferenzen bezüglich des Spielablaufs?)
+
+Question 8:
+Technical skills and abilities?
+(Welche technischen Kenntnisse und Fähigkeiten haben Sie?)
+
+Question 9:
+Solo or multiplayer gameplay preference?
+(Möchten Sie das Kartenspiel alleine oder mit anderen spielen können?)
+
+Question 10:
+Interaction method preference (keyboard, touchscreen, voice)?
+(Welche Art von Interaktion bevorzugen Sie, z.B. Tastatur, Touchscreen, Sprachsteuerung?)
+
+Question 11:
+User interface requirements?
+(Gibt es spezielle Bedürfnisse bezüglich der Benutzeroberfläche?)
+
+Question 12:
+Importance of accessibility in the game?
+(Wie wichtig ist Ihnen die Barrierefreiheit des Spiels?)
+
+Question 13:
+Audio cues or feedback preferences?
+(Welche Art von Tonsignalen oder akustischen Feedbacks bevorzugen Sie?)
+
+Question 14:
+Game rules or variations you prefer?
+(Haben Sie Präferenzen in Bezug auf die Spielregeln oder -varianten?)
+
+Question 15:
+Preferred card or game board layouts?
+(Gibt es bestimmte Karten- oder Spielbrettlayouts, die für Sie besser funktionieren?)
+
+Question 16:
+Target audience for the game?
+(Welche Zielgruppe hat das Spiel? Soll es für alle Altersgruppen geeignet sein?)
+
+Question 17:
+Game control and navigation preferences?
+(Wie möchten Sie das Spiel steuern und navigieren?)
+
+Question 18:
+Speed or difficulty level preferences?
+(Haben Sie besondere Vorlieben für Spielgeschwindigkeit oder Schwierigkeitsgrad?)
+
+Question 19:
+Desire for online multiplayer options?
+(Würden Sie gerne Online-Multiplayer-Optionen haben?)
+
+Question 20:
+Interest in social features (chat, challenges)?
+(Möchten Sie soziale Funktionen wie Chat oder Herausforderungen integrieren?)
+
+Question 21:
+Desired game statistics or progress information?
+(Welche Art von Spielstatistiken oder Verlaufsinformationen möchten Sie anzeigen?)
+
+Question 22:
+Preferred themes or designs for the game?
+(Gibt es bestimmte Themen oder Designs, die Sie für das Spiel bevorzugen?)
+
+Question 23:
+Concerns about data security or privacy?
+(Haben Sie Bedenken hinsichtlich der Datensicherheit oder des Datenschutzes?)
+
+Question 24:
+Support and assistance preferences for troubleshooting?
+(Welche Art von Support oder Hilfe wünschen Sie, falls Sie auf Probleme stoßen?)
+
+Question 25:
+Download and installation of the game?
+(Möchten Sie das Spiel herunterladen und auf Ihrem Gerät installieren können?)
+
+Question 26:
+Languages you want the game to support?
+(Welche Sprachen sollten im Spiel verfügbar sein?)
+
+Question 27:
+Payment preferences (free or paid)?
+(Soll das Spiel kostenfrei oder kostenpflichtig sein?)
+
+Question 28:
+Payment options of choice?
+(Welche Art von Zahlungsoptionen bevorzugen Sie?)
+
+Question 29:
+Specific control or accessibility requirements?
+(Gibt es spezielle Anforderungen hinsichtlich der Steuerung oder Bedienungshilfen?)
+
+Question 30:
+Offline gameplay capability?
+(Möchten Sie das Spiel offline spielen können?)
+
+Question 31:
+Regularly used devices or technologies?
+(Welche Geräte oder Technologien verwenden Sie regelmäßig?)
+
+Question 32:
+Existing software or assistive tools in use?
+(Gibt es bestimmte Software oder Assistenztools, die Sie bereits nutzen?)
+
+Question 33:
+Soundtrack and sound effect preferences?
+(Haben Sie besondere Präferenzen in Bezug auf den Soundtrack oder Soundeffekte?)
+
+Question 34:
+User-friendliness expectations?
+(Welche Vorstellung haben Sie von der Benutzerfreundlichkeit des Spiels?)
+
+Question 35:
+Color schemes or contrast settings preferences?
+(Welche Farbschemata oder Kontrasteinstellungen bevorzugen Sie?)
+
+Question 36:
+Privacy and accessibility standards to adhere to?
+(Gibt es Vorgaben bezüglich der Datenschutzbestimmungen oder Zugänglichkeitsstandards?)
+
+Question 37:
+Desire for in-game feedback or progress indicators?
+(Möchten Sie Feedback oder Fortschrittsanzeigen im Spiel haben?)
+
+Question 38:
+Specific design preferences (e.g., card backs)?
+(Haben Sie spezielle Vorlieben hinsichtlich der Spielgestaltung, z.B. Kartenrückseiten?)
+
+Question 39:
+Types of challenges or puzzles you'd like in the game?
+(Welche Art von Herausforderungen oder Rätseln möchten Sie im Spiel haben?)
+
+Question 40:
+Expectations regarding game quality?
+(Welche Vorstellung haben Sie von der Spielqualität?)
+
+Question 41:
+Preferred notification methods?
+(Welche Benachrichtigungsarten sind für Sie am hilfreichsten?)
+
+Question 42:
+Special card recognition or descriptions?
+(Möchten Sie besondere Informationen zur Kartenerkennung oder -beschreibung?)
+
+Question 43:
+Menu structure and navigation preferences?
+(Haben Sie Präferenzen in Bezug auf die Menüstruktur und Navigation?)
+
+Question 44:
+Available aids or resources?
+(Welche Hilfsmittel oder Ressourcen stehen Ihnen zur Verfügung?)
+
+Question 45:
+Specific requirements for game performance?
+(Gibt es besondere Anforderungen an die Spielperformance?)
+
+Question 46:
+Desired timeframes or session time limits?
+(Welche Zeiträume oder Zeitlimits möchten Sie für Spielsitzungen festlegen können?)
+
+Question 47:
+Interest in using community or support resources?
+(Möchten Sie spezielle Community- oder Unterstützungsressourcen nutzen?)
+
+Question 48:
+Information display preferences?
+(Haben Sie Vorlieben bezüglich der Informationsdarstellung im Spiel?)
+
+Question 49:
+Preferred platforms or app stores?
+(Welche Plattformen oder App-Stores bevorzugen Sie?)
+
+Question 50:
+Any other important information you'd like to share?
+(Gibt es sonstige wichtige Informationen, die Sie teilen möchten?)
