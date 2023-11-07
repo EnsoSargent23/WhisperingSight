@@ -1,1 +1,25 @@
-//
+openapi: 3.0.0
+info:
+  title: Card Recognition API
+  version: 1.0.0
+paths:
+  /cardinfo:
+    get:
+      summary: Alle Karten Informationen
+      responses:
+        '200':
+          description: Erfolgreiche Anfrage
+  /card/{id}:
+    get:
+      summary: Ruft einen bestimmte Karte
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Erfolgreiche Anfrage
+        '404':
+          description: Nutzer nicht gefunden
