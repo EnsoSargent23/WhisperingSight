@@ -11,7 +11,7 @@ paths:
           description: Erfolgreiche Anfrage
   /card/{id}:
     get:
-      summary: Ruft einen bestimmte Karte
+      summary: Ruft Informationen von einer bestimmte Karte
       parameters:
         - in: path
           name: id
@@ -22,4 +22,4 @@ paths:
         '200':
           description: Erfolgreiche Anfrage
         '404':
-          description: Nutzer nicht gefunden
+          description: Karte nicht gefunden
