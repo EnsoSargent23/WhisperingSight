@@ -1,1 +1,49 @@
-/**/
+@font-face {
+    font-family: 'est';
+    src: url('Assets/fonts/SirinStencil-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background: url('Assets/images/bee.png') center center fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header, footer {
+    background: linear-gradient(to right, #ff6666, #ffb366, #ffea66, #ffffff, #e0e0e0);
+    color: #000000;
+    flex-shrink: 0;
+    padding: 10px 0;
+    text-shadow: rgb(250, 166, 22) 2px 1px;
+    font-size: 28px;
+    font-family: est;
+}
+
+main {
+    flex-grow: 1;
+    text-align: center;
+    padding: 100px 0; 
+}
+
+#button {
+    width: 200px; 
+    border: solid black 2px;
+    font-family: est;
+    font-size: 28px;
+}
+.nav-link{
+    border: solid black 2px;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+.nav-link:hover{
+    background-color: rgb(250, 166, 22,0.5);    
+}
