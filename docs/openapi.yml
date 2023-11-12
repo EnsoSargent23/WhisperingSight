@@ -3,23 +3,23 @@ info:
   title: Card Recognition API
   version: 1.0.0
 paths:
-  /cardinfo:
+  /cardinthemiddle:
     get:
-      summary: Alle Karten Informationen
+      summary: The Card in the middle
       responses:
         '200':
-          description: Erfolgreiche Anfrage
-  /card/{id}:
+          description: success
+  /cardinmyhand/{playerid}:
     get:
-      summary: Ruft Informationen von einer bestimmte Karte
+      summary: cards in the hand of the player
       parameters:
         - in: path
-          name: id
+          name: playerid
           required: true
           schema:
             type: integer
       responses:
         '200':
-          description: Erfolgreiche Anfrage
+          description: success
         '404':
-          description: Karte nicht gefunden
+          description: card not found

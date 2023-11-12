@@ -1,36 +1,54 @@
-// imports 
+// imports
 #include <SPI.h>
 #include <MFRC522.h>
+#include <Servo.h>
+#include <Wire.h> 
+
+// Pin Definition
+#define SS_PIN 10
+#define RST_PIN 9
+
+// Instatiate Motor and RFID Module
+Servo motor;
+MFRC522 rfid(SS_PIN, RST_PIN); 
 
 
-// Pin Setting
-#define RST_PIN1 9
-#define SS_PIN1 10
 
-#define RST_PIN2 5
-#define SS_PIN2 6
-
-#define RST_PIN3 2
-#define SS_PIN3 3
-
-// RFID-Module Instances
-MFRC522 mfrc522_1(SS_PIN1, RST_PIN1);
-MFRC522 mfrc522_2(SS_PIN2, RST_PIN2);
-MFRC522 mfrc522_3(SS_PIN3, RST_PIN3);
-
-// Setup
-void setup() {
-    // Serial Begin
+// Setup for first time
+void setup() { 
+  // Serial Begin
   Serial.begin(9600);
-  // SPI start
-  SPI.begin();
+  // Servo Attach
+  motor.attach(6);
+  // Pin Setting
+  pinMode(2, OUTPUT);
+  pinMode(3, OUTPUT);
 
-  // Initialisation of Modules
-  mfrc522_1.PCD_Init();
-  mfrc522_2.PCD_Init();
-  mfrc522_3.PCD_Init();
+  // Init SPI bus
+  SPI.begin(); 
+  // Init MFRC522
+  rfid.PCD_Init();  
 }
 
+// iteration
 void loop() {
-  // reading of triple signal
+  // Reset the loop if no new card present on the sensor/reader. This saves the entire process when idle.
+  if (!rfid.PICC_IsNewCardPresent()){
+    return;
+  }
+  // Verify if the NUID has been read
+  if (!rfid.PICC_ReadCardSerial()){
+    return;
+  }
+  
+  Serial.println(rfid.uid)
+
+
+  delay(1000);
+
+  // Halt PICC
+  rfid.PICC_HaltA();
+
+  // Stop encryption on PCD
+  rfid.PCD_StopCrypto1();
 }
