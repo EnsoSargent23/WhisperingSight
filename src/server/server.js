@@ -20,7 +20,7 @@ app.use(express.static('public'));
 
 // Setting of Port of Arduino
 const arduinoPort = new SerialPort({
-  path: 'COM3',
+  path: 'COM6',
   baudRate: 9600
 });
 
@@ -38,15 +38,13 @@ function waitForData() {
 }
 
 // fetching data from Serialport: Getting Hand Information of the Player
-function waitForData(playerid) {
-  return "coming soon!"
-}
+
 
 // Get Request for Playerhand
 app.get('/cardinmyhand/:playerid', async (req, res) => {
   try {
     const playerid = req.params.playerid;
-    const data = await waitForData(playerid); // Warte auf Daten von der seriellen Schnittstelle
+    const data = await waitForData(); // Warte auf Daten von der seriellen Schnittstelle
     res.send(data); // Sende die Daten an den Client
   } catch (error) {
     res.status(500).send('Fehler beim Lesen der Daten');
