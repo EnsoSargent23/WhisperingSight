@@ -1,29 +1,22 @@
 // imports
 #include <SPI.h>
 #include <MFRC522.h>
-#include <Servo.h>
-#include <Wire.h> 
+
 
 // Pin Definition
 #define SS_PIN 10
 #define RST_PIN 9
 
 // Instatiate Motor and RFID Module
-Servo motor;
+
 MFRC522 rfid(SS_PIN, RST_PIN); 
 
-
+byte nuidPICC[4];
 
 // Setup for first time
 void setup() { 
   // Serial Begin
   Serial.begin(9600);
-  // Servo Attach
-  motor.attach(6);
-  // Pin Setting
-  pinMode(2, OUTPUT);
-  pinMode(3, OUTPUT);
-
   // Init SPI bus
   SPI.begin(); 
   // Init MFRC522
@@ -32,7 +25,7 @@ void setup() {
 
 // iteration
 void loop() {
-  // Reset the loop if no new card present on the reader
+  // Reset the loop if no new card present on the sensor/reader. This saves the entire process when idle.
   if (!rfid.PICC_IsNewCardPresent()){
     return;
   }
@@ -40,9 +33,14 @@ void loop() {
   if (!rfid.PICC_ReadCardSerial()){
     return;
   }
+
+    for (byte i = 0; i < 4; i++) {
+      nuidPICC[i] = rfid.uid.uidByte[i];
+    }
+
+  String id = "ID: "+String(nuidPICC[0])+" : "+String(nuidPICC[1])+" : "+String(nuidPICC[2])+" : "+String(nuidPICC[3]);
+   Serial.println(id);
   
-  // Send UID of token to the serialport
-  Serial.println(rfid.uid)
 
 
   delay(1000);
