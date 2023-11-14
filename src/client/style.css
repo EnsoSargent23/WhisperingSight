@@ -47,3 +47,13 @@ main {
 .nav-link:hover{
     background-color: rgb(250, 166, 22,0.5);    
 }
+
+.player-box {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
+}
+
