@@ -1,0 +1,67 @@
+| Farbe  | Karte                       | Binäre Darstellung | Hexadezimale Darstellung |
+|--------|-----------------------------|--------------------|--------------------------|
+| Rot    | 0                           | 0000 0000          | 00                       |
+| Rot    | 1                           | 0000 0001          | 01                       |
+| Rot    | 2                           | 0000 0010          | 02                       |
+| Rot    | 3                           | 0000 0011          | 03                       |
+| Rot    | 4                           | 0000 0100          | 04                       |
+| Rot    | 5                           | 0000 0101          | 05                       |
+| Rot    | 6                           | 0000 0110          | 06                       |
+| Rot    | 7                           | 0000 0111          | 07                       |
+| Rot    | 8                           | 0000 1000          | 08                       |
+| Rot    | 9                           | 0000 1001          | 09                       |
+| Rot    | Aussetzen (Rot)             | 0000 1010          | 0A                       |
+| Rot    | Richtungswechsel (Rot)      | 0000 1011          | 0B                       |
+| Rot    | Zwei Ziehen (Rot)           | 0000 1100          | 0C                       |
+
+| Farbe  | Karte                       | Binäre Darstellung | Hexadezimale Darstellung |
+|--------|-----------------------------|--------------------|--------------------------|
+| Gelb   | 0                           | 0001 0000          | 10                       |
+| Gelb   | 1                           | 0001 0001          | 11                       |
+| Gelb   | 2                           | 0001 0010          | 12                       |
+| Gelb   | 3                           | 0001 0011          | 13                       |
+| Gelb   | 4                           | 0001 0100          | 14                       |
+| Gelb   | 5                           | 0001 0101          | 15                       |
+| Gelb   | 6                           | 0001 0110          | 16                       |
+| Gelb   | 7                           | 0001 0111          | 17                       |
+| Gelb   | 8                           | 0001 1000          | 18                       |
+| Gelb   | 9                           | 0001 1001          | 19                       |
+| Gelb   | Aussetzen (Gelb)            | 0001 1010          | 1A                       |
+| Gelb   | Richtungswechsel (Gelb)     | 0001 1011          | 1B                       |
+| Gelb   | Zwei Ziehen (Gelb)          | 0001 1100          | 1C                       |
+
+| Farbe  | Karte                       | Binäre Darstellung | Hexadezimale Darstellung |
+|--------|-----------------------------|--------------------|--------------------------|
+| Blau   | 0                           | 0010 0000          | 20                       |
+| Blau   | 1                           | 0010 0001          | 21                       |
+| Blau   | 2                           | 0010 0010          | 22                       |
+| Blau   | 3                           | 0010 0011          | 23                       |
+| Blau   | 4                           | 0010 0100          | 24                       |
+| Blau   | 5                           | 0010 0101          | 25                       |
+| Blau   | 6                           | 0010 0110          | 26                       |
+| Blau   | 7                           | 0010 0111          | 27                       |
+| Blau   | 8                           | 0010 1000          | 28                       |
+| Blau   | 9                           | 0010 1001          | 29                       |
+| Blau   | Aussetzen (Blau)            | 0010 1010          | 2A                       |
+| Blau   | Richtungswechsel (Blau)     | 0010 1011          | 2B                       |
+| Blau   | Zwei Ziehen (Blau)          | 0010 1100          | 2C                       |
+
+| Farbe  | Karte                       | Binäre Darstellung | Hexadezimale Darstellung |
+|--------|-----------------------------|--------------------|--------------------------|
+| Grün   | 0                           | 0011 0000          | 30                       |
+| Grün   | 1                           | 0011 0001          | 31                       |
+| Grün   | 2                           | 0011 0010          | 32                       |
+| Grün   | 3                           | 0011 0011          | 33                       |
+| Grün   | 4                           | 0011 0100          | 34                       |
+| Grün   | 5                           | 0011 0101          | 35                       |
+| Grün   | 6                           | 0011 0110          | 36                       |
+| Grün   | 7                           | 0011 0111          | 37                       |
+| Grün   | 8                           | 0011 1000          | 38                       |
+| Grün   | 9                           | 0011 1001          | 39                       |
+| Grün   | Aussetzen (Grün)            | 0011 1010          | 3A                       |
+| Grün   | Richtungswechsel (Grün)     | 0011 1011          | 3B                       |
+| Grün   | Zwei Ziehen (Grün)          | 0011 1100          | 3C                       |
+
+|--------|-----------------------------|--------------------|--------------------------|
+| Schwarz| Farbwahl (Schwarz)          | 0100 1101          | 4D                       |
+| Schwarz| Vier Ziehen (Schwarz)       | 0100 1110          | 4E                       |
