@@ -1,31 +1,35 @@
-// First, install the required modules with the command: npm install express
+// Installiere zuerst die erforderlichen Module mit dem Befehl: npm install express
 
-// Import the Express module
+// Importiere das Express-Modul
 const express = require('express');
 const cors = require('cors');
 const http = require('http');
 const WebSocket = require('ws');
 
-// Create an instance of Express
+
+
+// Erstelle eine Instanz von Express
 const app = express();
 app.use(cors());
 
-// Create an HTTP server
+// Erstelle einen HTTP-Server
 const server = http.createServer((req, res) => {
   res.writeHead(200, {'Content-Type': 'text/plain'});
   res.end('WebSocket Server is running');
 });
 
-// Create a WebSocket server bound to the HTTP server
+// Erstelle einen WebSocket-Server, der an den HTTP-Server gebunden ist
 const wss = new WebSocket.Server({ server });
 
-// Event handler for incoming WebSocket connections
+// Event-Handler für eingehende WebSocket-Verbindungen
 wss.on('connection', (ws) => {
   console.log('Client connected');
 
-  // Event handler for incoming messages from the client
+  // Event-Handler für eingehende Nachrichten vom Client
   ws.on('message', (message) => {
-    // Send the received message to all connected clients
+    client.send(`${message}`);
+
+    // Sende die empfangene Nachricht an alle verbundenen Clients
     wss.clients.forEach((client) => {
       if (client !== ws && client.readyState === WebSocket.OPEN) {
         client.send(message);
@@ -33,40 +37,40 @@ wss.on('connection', (ws) => {
     });
   });
 
-  // Event handler for closing the WebSocket connection
+  // Event-Handler für das Schließen der WebSocket-Verbindung
   ws.on('close', () => {
     console.log('Client disconnected');
   });
 });
 
-// Define an endpoint for GET requests with the 'zeit' parameter
-app.get('/result/:cardname', (req, res) => {
-  // Read the 'zeit' parameter from the query
-  let zeit = req.params.cardname;
 
-  let result = `This card is the ${cardname}`;
 
-  // Send the result as a response
-  console.log(zeit);
-  console.log(result);
+// Definiere einen Endpunkt für GET-Requests mit dem Parameter 'zeit'
+app.get('/ergebnis/:karte', (req, res) => {
+  // Lies den Zeitparameter aus dem path
+  let karte = req.params.karte;
 
-  // Send data to all WebSocket clients
-  wss.clients.forEach((client) => {
-    if (client.readyState === WebSocket.OPEN) {
-      client.send(result);
-    }
+  let ergebnis = `${karte}`;
+
+    // Sende Daten an alle WebSocket-Clients
+    wss.clients.forEach((client) => {
+      if (client.readyState === WebSocket.OPEN) {
+          client.send(ergebnis);
+      }
   });
 
-  res.send(result);
+  res.send(ergebnis);
 });
 
-// Start the server on port 3000
+
+
+// Starte den Server auf dem Port 3000
 const port = 3000;
 app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+  console.log(`Server läuft auf http://localhost:${port}`);
 });
 
-// Start the server on port 3001
+// Starte den Server auf Port 3000
 server.listen(3001, () => {
   console.log('Server listening on http://localhost:3001');
 });
