@@ -1,43 +1,20 @@
 #include <ETH.h>
 #include <WiFi.h>
-#include <WiFiAP.h>
-#include <WiFiClient.h>
-#include <WiFiGeneric.h>
 #include <WiFiMulti.h>
-#include <WiFiScan.h>
-#include <WiFiServer.h>
-#include <WiFiSTA.h>
-#include <WiFiType.h>
-#include <WiFiUdp.h>
-
 #include <Wire.h>
-#include <SPI.h>
-#include <HTTPClient.h>
 #include <Adafruit_PN532.h>
+#include <HTTPClient.h>
 
-/*
-Wichtiger Hinweis : 
-
-Veränderung im Code erforderlich : 
-
-bei Connectionaufbau : SSID und Passwort 
-
-bei Http : IP Addresse
-
-*/
-
-#define SDA_PIN 21   // Pin für SDA beim PN532
-#define SCL_PIN 22   // Pin für SCL beim PN532
-#define RSTO_PIN 5   // Pin für SDA beim PN532
-#define IRQ_PIN 18   // Pin für SCL beim PN532
+#define SDA_PIN 21
+#define SCL_PIN 22
+#define RSTO_PIN 5
+#define IRQ_PIN 18
 
 Adafruit_PN532 nfc(IRQ_PIN, RSTO_PIN);
 
-WifiMulti wifiMulti;
+WiFiMulti wifiMulti;
 
-// Color Array 
 String farben[] = {"Rot", "Gelb", "Blau", "Gruen", "Schwarz"};
-
 
 void setup(void) {
   Serial.begin(115200);
@@ -51,15 +28,14 @@ void setup(void) {
     while (1);
   }
 
-  wifiMulti.addAP("SSID","Passwort");
+  wifiMulti.addAP("SSID", "Passwort");
 
-  while (wifiMulti.run() != WL_CONNECTED){
+  while (wifiMulti.run() != WL_CONNECTED) {
     delay(1000);
-    Serial.println("Verbindung wird hergetellt...");
-    }
+    Serial.println("Verbindung wird hergestellt...");
+  }
 
   Serial.println("Verbindung erfolgreich !");
-  
 }
 
 void loop(void) {
@@ -70,28 +46,42 @@ void loop(void) {
   success = nfc.readPassiveTargetID(PN532_MIFARE_ISO14443A, uid, &uidLength);
 
   if (success) {
-    
     Serial.println("Reading Tag Content:");
     for (uint8_t block = 7; block < 8; block++) {
       uint8_t data[16];
       success = nfc.mifareclassic_ReadDataBlock(block, data);
       String firstByteAsString = String(data[0], HEX);
-      if (success) {
-    
-      sendHttpRequest(getCardName(firstByteAsString));
-} else {
-    Serial.println("Read failed!");
-}
+
+      if (success && WiFi.status() == WL_CONNECTED) {
+        sendHttpRequest(getCardName(firstByteAsString));
+      } else {
+        Serial.println("Read failed or WiFi not connected!");
+      }
+
       Serial.println("");
     }
-    delay(1000);
+    delay(3000);  // Kurze Verzögerung, um die Prozessorlast zu reduzieren
   }
 }
 
-String getCardName(String hexMod){
+String getCardName(String hexMod) {
 
-  String farbe = hexMod.substring(0, 1);
-  String nummer = hexMod.substring(1, 2);
+String hex = hexMod;
+String farbe;
+String nummer;
+
+if(hex.length() == 1){
+  
+  farbe = "0";
+  nummer = hex.substring(0, 1);
+
+}
+else{
+  
+   farbe = hex.substring(0, 1);
+   nummer = hex.substring(1, 2);
+
+}
 
   if(nummer == "a"){
     nummer = "Aussetzen";
@@ -108,10 +98,10 @@ String getCardName(String hexMod){
   if(nummer == "e"){
     nummer = "4Ziehen";
   }
-  
-  
 
-  return farben[farbe.toInt()]+nummer;
+String antwort = farben[farbe.toInt()] + String(nummer);
+
+  return antwort ;
 }
 
 void sendHttpRequest(String karte) {
@@ -119,8 +109,7 @@ void sendHttpRequest(String karte) {
 
   Serial.println("[HTTP] begin...");
 
-  // Erstelle die URL mit dem Namen als Query-Parameter
-  String serverUrl = "http://IP-Addresse:3000/ergebnis/" + karte;
+  String serverUrl = "http://IpAddress:3000/ergebnis/" + karte;
 
   http.begin(serverUrl);
 
@@ -141,3 +130,6 @@ void sendHttpRequest(String karte) {
 
   http.end();
 }
+
+
+ 
