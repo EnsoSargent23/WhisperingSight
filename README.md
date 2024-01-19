@@ -1,6 +1,6 @@
-
+# Project : Whispering Sight
 <p align="center">
-  <h2>Whispering Sight</h2>
+  <p>Whispering Sight</p>
 </p>
 
 <p align="center">
