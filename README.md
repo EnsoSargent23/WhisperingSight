@@ -1,4 +1,13 @@
-# Playing Card Recognition for the Visually Impaired
+# Whispering Sight
+
+![Logo](./docs/WhisperingSight.jpg)
+
+
+
+
+
+---
+## Playing Card Recognition for the Visually Impaired
 
 ## Project Idea
 Create a web application that enables blind individuals to enjoy playing cards with others, fostering inclusivity and overcoming disability-related limitations.
