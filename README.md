@@ -1,6 +1,7 @@
-# Whispering Sight
+
 
 <p align="center">
+# Whispering Sight
   <img src="./docs/WhisperingSight.jpg" alt="Whispering Sight" width="500px" height="500px">
 </p>
 
