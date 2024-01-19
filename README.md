@@ -1,5 +1,5 @@
 <p align="center">
-  <h1>Whispering Sight</h1>
+  <h1>Whispering Sight</h1><br>
   <img src="./docs/WhisperingSight.jpg" alt="Whispering Sight" width="500px" height="500px">
 </p>
 
