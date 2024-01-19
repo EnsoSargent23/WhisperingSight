@@ -1,15 +1,15 @@
 # Whispering Sight
 
 <p align="center">
-  <img src="./docs/WhisperingSight.jpg" alt="Whispering Sight">
+  <img src="./docs/WhisperingSight.jpg" alt="Whispering Sight" width="500px" height="500px">
 </p>
 
 <p align="center">
-  <img src="./docs/Version1.png" alt="Version 1" height="700px" style="max-width:100%">
+  <img src="./docs/Version1.png" alt="Version 1" height="700px" width="1000px">
 </p>
 
 <p align="center">
-  <img src="./docs/Version2.png" alt="Version 2" height="700px" style="max-width:100%">
+  <img src="./docs/Version2.png" alt="Version 2" height="700px" width="1000px">
 </p>
 
 
