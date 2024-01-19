@@ -1,10 +1,10 @@
 # Whispering Sight
 
-<img src="./docs/WhisperingSight.jpg" width ="300px" height="300px">
+<img src="./docs/WhisperingSight.jpg">
 
-<img src="./docs/IP2324_IP-13_Playing_card_recognition_for_blind.png" width ="500px" height="700px">
+<img src="./docs/Version1.png" height="700px">
 
-<img src="./docs/Version2.png" width ="500px" height="700px">
+<img src="./docs/Version2.png" height="700px">
 
 
 
