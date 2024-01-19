@@ -1,10 +1,17 @@
 # Whispering Sight
 
-<img src="./docs/WhisperingSight.jpg">
+<p align="center">
+  <img src="./docs/WhisperingSight.jpg" alt="Whispering Sight">
+</p>
 
-<img src="./docs/Version1.png" height="700px">
+<p align="center">
+  <img src="./docs/Version1.png" alt="Version 1" height="700px" style="max-width:100%">
+</p>
 
-<img src="./docs/Version2.png" height="700px">
+<p align="center">
+  <img src="./docs/Version2.png" alt="Version 2" height="700px" style="max-width:100%">
+</p>
+
 
 
 
