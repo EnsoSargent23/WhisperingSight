@@ -1,6 +1,6 @@
 
 <p align="center">
-  <h1>Whispering Sight</h1>
+  <h2>Whispering Sight</h2>
 </p>
 
 <p align="center">
@@ -8,11 +8,11 @@
 </p>
 
 <p align="center">
-  <img src="./docs/Version1.png" alt="Version 1" height="700px" width="1000px">
+  <img src="./docs/Version1.png" alt="Version 1" height="900px" width="1200px">
 </p>
 
 <p align="center">
-  <img src="./docs/Version2.png" alt="Version 2" height="700px" width="1000px">
+  <img src="./docs/Version2.png" alt="Version 2" height="900px" width="1200px">
 </p>
 
 
