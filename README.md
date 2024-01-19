@@ -1,8 +1,8 @@
 # Whispering Sight
 
-![Logo](./docs/WhisperingSight.jpg){width="100%"}
+![Logo](./docs/WhisperingSight.jpg)
 
-
+<img src="./docs/WhisperingSight.jpg" width ="100px" height="100px">
 
 
 
