@@ -1,7 +1,4 @@
 # Project : Whispering Sight
-<p align="center">
-  <p>Whispering Sight</p>
-</p>
 
 <p align="center">
   <img src="./docs/WhisperingSight.jpg" alt="Whispering Sight" width="500px" height="500px">
