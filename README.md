@@ -1,6 +1,6 @@
 # Whispering Sight
 
-![Logo](./docs/WhisperingSight.jpg)
+![Logo](./docs/WhisperingSight.jpg){width="100%"}
 
 
 
