@@ -2,6 +2,12 @@
 
 <img src="./docs/WhisperingSight.jpg" width ="300px" height="300px">
 
+<img src="./docs/IP2324_IP-13_Playing_card_recognition_for_blind.pdf" width ="300px" height="300px">
+
+<img src="./docs/WhisperingSight.jpg" width ="300px" height="300px">
+
+
+
 
 
 ---
