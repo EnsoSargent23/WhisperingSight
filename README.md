@@ -1,5 +1,9 @@
+
 <p align="center">
   <h1>Whispering Sight</h1><br>
+</p>
+
+<p align="center">
   <img src="./docs/WhisperingSight.jpg" alt="Whispering Sight" width="500px" height="500px">
 </p>
 
