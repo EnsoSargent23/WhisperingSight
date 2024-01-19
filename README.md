@@ -1,6 +1,6 @@
 
 <p align="center">
-  <h1>Whispering Sight</h1><br>
+  <h1>Whispering Sight</h1>
 </p>
 
 <p align="center">
