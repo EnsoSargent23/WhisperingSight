@@ -1,8 +1,6 @@
 # Whispering Sight
 
-![Logo](./docs/WhisperingSight.jpg)
-
-<img src="./docs/WhisperingSight.jpg" width ="100px" height="100px">
+<img src="./docs/WhisperingSight.jpg" width ="300px" height="300px">
 
 
 
